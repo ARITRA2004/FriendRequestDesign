@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend Request</title>
+</head>
+<style>
+    body {
+        /* background-color: black; */
+        background-color: #18191a;
+    }
+
+    .main-body {
+        display: flex;
+        margin: 2%;
+        /* justify-content: space-evenly; */
+    }
+
+    .first-main-body,
+    .second-main-body,
+    .third-main-body,
+    .fourth-main-body,
+    .fifth-main-body {
+        margin-right: 2%;
+    }
+
+    .main-content {
+        /* margin: auto auto; */
+        width: 190px;
+        height: 370px;
+        border: 2.5px solid rgb(75, 74, 74);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        /* background-color: gray; */
+    }
+
+    .image {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+
+    .img {
+        height: 60%;
+        width: 102%;
+        position: relative;
+        z-index: -5;
+        margin-top: -0.19%;
+        margin-left: -1%;
+        border-radius: 3%;
+    }
+
+    h2.text {
+        font-family: inherit;
+        color: white;
+        text-align: center;
+        margin-top: 0%;
+        font-weight: 600;
+    }
+
+    .btn {
+        border-radius: 8px;
+        border-style: none;
+        border-color: #2374E1;
+        /* background-color: rgb(52, 52, 160); */
+        background-color: #2374E1;
+        width: 96%;
+        height: 36px;
+        color: white;
+    }
+
+    .footer {
+        margin-top: -50%;
+        padding: 7px;
+        background-color: #18191a;
+        z-index: -1;
+    }
+
+    .confirm {
+        text-align: center;
+        margin-top: 0%;
+        position: relative;
+        height: 20%;
+        margin-top: 14%;
+
+    }
+
+    .btn-delete {
+        border-radius: 8px;
+        width: 96%;
+        height: 36px;
+        background-color: #525455;
+        border-color: #525455;
+        border-style: none;
+    }
+
+    .delete {
+        text-align: center;
+        margin-top: 0%;
+    }
+
+    .confirm,
+    .delete {
+        margin-top: 4%;
+    }
+
+    .mutu {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+
+    .mutual-friend {
+        align-items: center;
+        margin-top: -1%;
+        margin: auto auto;
+        padding-left: 2%;
+    }
+
+    /* .mutual-friend , .options{
+        margin-top: 4%;
+    } */
+    .options {
+        margin-top: 5%;
+    }
+
+    span.text {
+        color: gray;
+        font-size: inherit;
+    }
+</style>
+
+<body>
+    <div class="main-body">
+        <div class="main-content first-main-body">
+            <div class="image">
+                <img class="img"
+                    src="https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/280420406_1054586588799255_1835627836723843858_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Rt2VivT6QjAAX_NrcW3&tn=5lAL5qXWNaP1gv52&_nc_ht=scontent.fccu3-1.fna&oh=00_AfAGTZQsa0BjxvBoCq-3KhIR9HSN-H2ih1zHxPrW_FeOqw&oe=638A40B5"
+                    alt="image">
+
+            </div>
+            <div class="footer">
+                <div class="name">
+                    <h2 class="text">Aritra Mandal</h2>
+                </div>
+                <div class="mutual-friend">
+                    <span class="mutual">
+                        <img class="mutu"
+                            src="https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/280420406_1054586588799255_1835627836723843858_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Rt2VivT6QjAAX_NrcW3&tn=5lAL5qXWNaP1gv52&_nc_ht=scontent.fccu3-1.fna&oh=00_AfAGTZQsa0BjxvBoCq-3KhIR9HSN-H2ih1zHxPrW_FeOqw&oe=638A40B5"
+                            alt="image">
+                    </span>
+                    <span class="text">173 mutual friends</span>
+                </div>
+                <div class="options">
+                    <div class="confirm">
+                        <button class="btn">Confirm</button>
+                    </div>
+                    <div class="delete">
+                        <button class="btn-delete">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content second-main-body">
+            <div class="image">
+                <img class="img"
+                    src="https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/276031749_264831902509949_3496107549129988917_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6l_R9Yynh50AX9Ou5S-&_nc_ht=scontent.fccu3-1.fna&oh=00_AfAqVMGu3OwLj58aCmA-E7t5gTNTjR9X6YRgZZ3nEf8Zgw&oe=638C0F36"
+                    alt="image">
+
+            </div>
+            <div class="footer">
+                <div class="name">
+                    <h2 class="text">Subhadip Dey</h2>
+                </div>
+                <div class="mutual-friend">
+                    <span class="mutual">
+                        <img class="mutu"
+                            src="https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/280420406_1054586588799255_1835627836723843858_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Rt2VivT6QjAAX_NrcW3&tn=5lAL5qXWNaP1gv52&_nc_ht=scontent.fccu3-1.fna&oh=00_AfAGTZQsa0BjxvBoCq-3KhIR9HSN-H2ih1zHxPrW_FeOqw&oe=638A40B5"
+                            alt="image">
+                    </span>
+                    <span class="text">173 mutual friends</span>
+                </div>
+                <div class="options">
+                    <div class="confirm">
+                        <button class="btn">Confirm</button>
+                    </div>
+                    <div class="delete">
+                        <button class="btn-delete">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content third-main-body">
+            <div class="image">
+                <img class="img"
+                    src="https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/312019029_1173998146858354_1956250386164775160_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=h-baTGmX66wAX8a4ZG-&_nc_ht=scontent.fccu3-1.fna&oh=00_AfC4eUkRqVZPu5YmNgHQFzRpo9DC-i4yCAu_dIqVi2pzZQ&oe=638BC5F1"
+                    alt="image">
+
+            </div>
+            <div class="footer">
+                <div class="name">
+                    <h2 class="text">Sumit Nandi</h2>
+                </div>
+                <div class="mutual-friend">
+                    <span class="mutual">
+                        <img class="mutu"
+                            src="https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/280420406_1054586588799255_1835627836723843858_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Rt2VivT6QjAAX_NrcW3&tn=5lAL5qXWNaP1gv52&_nc_ht=scontent.fccu3-1.fna&oh=00_AfAGTZQsa0BjxvBoCq-3KhIR9HSN-H2ih1zHxPrW_FeOqw&oe=638A40B5"
+                            alt="image">
+                    </span>
+                    <span class="text">173 mutual friends</span>
+                </div>
+                <div class="options">
+                    <div class="confirm">
+                        <button class="btn">Confirm</button>
+                    </div>
+                    <div class="delete">
+                        <button class="btn-delete">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content fourth-main-body">
+            <div class="image">
+                <img class="img"
+                    src="https://scontent.fccu3-1.fna.fbcdn.net/v/t1.6435-1/117385325_177579033969481_6165584532627950796_n.jpg?stp=dst-jpg_p200x200&_nc_cat=110&ccb=1-7&_nc_sid=7206a8&_nc_ohc=Ss1bhOpitRwAX9XJZgu&_nc_ht=scontent.fccu3-1.fna&oh=00_AfCyirvs7itlsE6HbySN4LGbBQG9UY42yrMc9aSCvILU7w&oe=63ADCADF"
+                    alt="image">
+
+            </div>
+            <div class="footer">
+                <div class="name">
+                    <h2 class="text">Chiranjit</h2>
+                </div>
+                <div class="mutual-friend">
+                    <span class="mutual">
+                        <img class="mutu"
+                            src="https://scontent.fccu3-1.fna.fbcdn.net/v/t39.30808-6/280420406_1054586588799255_1835627836723843858_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Rt2VivT6QjAAX_NrcW3&tn=5lAL5qXWNaP1gv52&_nc_ht=scontent.fccu3-1.fna&oh=00_AfAGTZQsa0BjxvBoCq-3KhIR9HSN-H2ih1zHxPrW_FeOqw&oe=638A40B5"
+                            alt="image">
+                    </span>
+                    <span class="text">173 mutual friends</span>
+                </div>
+                <div class="options">
+                    <div class="confirm">
+                        <button class="btn">Confirm</button>
+                    </div>
+                    <div class="delete">
+                        <button class="btn-delete">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
